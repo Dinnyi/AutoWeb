@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: '微软雅黑';
+  font-size: 14px;
+  line-height: 20px;
+  background: #fff;
+  color: #000;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+body {
+  background-color: #e9232c;
+  color: #eee;
+  font-size: 14px;
+}
+body .container {
+  width: 1280px;
+}
+body .container .row {
+  padding: 0 45px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=demo.css.map */
