@@ -49,7 +49,8 @@
     + 测试命令 gulp -v
 - 初始化 gulp 项目
     + 在本地安装gulp包
-    + npm install gulp --save
+    + npm install gulp --save-dev
+    + npm init 初始化项目目录 生成一个json文件
 - 创建任务 - gulpfile.js
     + gulpfile.js 就是gulp的主文件
 
@@ -88,11 +89,15 @@
 
 https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 
-通配符路径匹配示例：
-    “src/a.js”：指定具体文件；
-    “*”：匹配所有文件    例：src/*.js(包含src下的所有js文件)；
-    “**”：匹配0个或多个子文件夹    例：src/**/*.js(包含src的0个或多个子文件夹下的js文件)；
-    “{}”：匹配多个属性    例：src/{a,b}.js(包含a.js和b.js文件)  src/*.{jpg,png,gif}(src下的所有jpg/png/gif文件)；
-    “!”：排除文件    例：!src/a.js(不包含src下的a.js文件)；
+## 通配符路径匹配示例：
+   - “src/a.js”：指定具体文件；
+   - “*”：匹配所有文件  
+      + 例：src/*.js(包含src下的所有js文件)；
+   - “**”：匹配0个或多个子文件夹
+      + 例：src/**/*.js(包含src的0个或多个子文件夹下的js文件)；
+   - “{}”：匹配多个属性
+      + 例：src/{a,b}.js(包含a.js和b.js文件)  src/*.{jpg,png,gif}(src下的所有jpg/png/gif文件)；
+   - “!”：排除文件
+      + 例：!src/a.js(不包含src下的a.js文件)；
 
 

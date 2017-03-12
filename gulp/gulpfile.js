@@ -71,7 +71,7 @@ gulp.task('revcollector' , ['html'] , function () {
 gulp.task('serve', ['revcollector'] , function() {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "./dist/"
         }
     });
 

@@ -18,7 +18,7 @@ $ # 卸载一个包
 $ bower uninstall bootstrap
 $ # 更新所有的包
 $ bower update
-```
+``
 
 - Bower配置文件
   + 项目根目录

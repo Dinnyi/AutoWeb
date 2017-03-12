@@ -1,8 +1,5 @@
-# 流行框架第一天：构建前端自动化工作流环境
 
-## 兩個問題
-
-## 学习目标
+## 基本介绍
 
 - 了解什么是Node，什么是NPM；（Node.js）
 - 掌握Bower的使用；
@@ -75,16 +72,17 @@
 - 因为NODE版本比较多，开发人员可能依赖很多版本
 - 通过NVM，可以轻松切换于不同的版本之间
 
-  ```command
-  
-  ```
-NVM_HOME=C:\Develop\nvm
+- 安装nvm及其配置环境变量
 
-NVM_SYMLINK=C:\Develop\nodejs
+  + NVM_HOME=C:\Develop\nvm
 
-NPM_HOME=C:\Develop\nvm\npm
+  + NVM_SYMLINK=C:\Develop\nodejs
 
-PATH=%NVM_HOME%;%NVM_SYMLINK%;%NPM_HOME%
+  + NPM_HOME=C:\Develop\nvm\npm
+
+  + PATH=%NVM_HOME%;%NVM_SYMLINK%;%NPM_HOME%
+
+  + 详情见：node和npm的安装与管理
 
 #### 1.2.3.环境变量
 
@@ -157,7 +155,8 @@ https://www.npmjs.com/
 
 // 安装一个包，默认安装最新稳定版本
 npm install package_name
-// --save
+// --save     生产阶段依赖项
+// --save-dev 开发阶段依赖项
 // 初始化操作，给项目添加一个配置文件
 npm init 
 // --yes参数走默认配置
@@ -226,6 +225,7 @@ npm init
 - [压缩html文件 gulp-minify-html](https://www.npmjs.com/package/gulp-minify-html)
 - [最小化图像：gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin)
 
+### 4.5.详情见：gulp详解
 
 *****
 

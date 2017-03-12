@@ -19,7 +19,8 @@
 				npm_mirror: https://npm.taobao.org/mirrors/npm/
 		4、配置环境变量
 			使用 nvm-setup.zip 自动安装 已经默认帮我们配置了环境变量
-		5、补充
+		5、使用
+			按照界面提示使用即可
 
 
 	- npm 的安装
@@ -42,7 +43,7 @@
 
 		3、然后继续在命令中输入： npm install npm -g 回车后会发现正在下载npm包
 		4、配置环境变量
-			 - 变量名为：NPM_HOME，变量值为 ：C:\dev\nvm\npm
+			 - 变量名为：NPM_HOME，变量值为 ：C:\abc\nvm\npm
 			 - 在Path的最前面添加 ;%NPM_HOME%
 			 - 注意了，这个一定要添加在 %NVM_SYMLINK%之前
 			 - 所以我们直接把它放到Path的最前面
@@ -67,5 +68,8 @@
 
 		命令：nrm ls 用于展示所有可切换的镜像地址
 		命令：nrm use cnpm 我们这样就可以直接切换到cnpm上了。当然也可以按照上面罗列的其他内容进行切换。
+		
+		
+		
 
 
